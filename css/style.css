@@ -58,6 +58,34 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header ***********/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header-logo {
+    width: 90px;
+    height: 25px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-first-link {
+    margin-right: 70px;
+}
+
+/****** Recherche ***********/
+.recherche-champ {
+    display: flex;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -74,6 +102,12 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /****** Populaires ***********/
