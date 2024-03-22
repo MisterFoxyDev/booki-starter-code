@@ -82,8 +82,56 @@ a {
 }
 
 /****** Recherche ***********/
+.recherche-title {
+    justify-content: center;
+    margin: 65px 0 40px 0;
+}
+
 .recherche-champ {
+    display: inline-flex;
+    align-items: stretch;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.recherche-champ * {
+    border: none;
+}
+
+.fa-location-dot {
+    color: black;
+}
+
+.recherche-icon {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    width: 45px;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--main-bg-color);
+}
+
+.recherche-form {
+    height: 100%;
+    align-self: center;
+    margin: 10px;
+    outline: none;
+}
+
+.recherche-input {
+    outline: none;
+}
+
+.recherche-button {
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
 }
 
 /****** Hebergements And Populaires ***********/
