@@ -371,6 +371,36 @@ a {
   width: 300px;
 }
 
+/****** Footer ***********/
+.footer-background {
+  height: auto;
+  width: 100%;
+  background-color: var(--main-bg-color);
+  margin-top: 35px;
+  margin-bottom: 1px;
+
+}
+
+.footer-container {
+  width: 74%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+.footer-container h3 {
+  margin: 15px 0 10px 0;
+}
+
+.footer-container ul {
+  padding-left: 0;
+}
+
+.footer-container li {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
