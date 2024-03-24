@@ -231,6 +231,9 @@ a {
 
 /****** Hebergements ***********/
 .hebergements {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 65%;
 }
 
@@ -241,6 +244,7 @@ a {
 }
 
 .hebergements-cards {
+  gap: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -250,7 +254,7 @@ a {
 .hebergements-cards .card {
   display: flex;
   flex-direction: column;
-  width: 240px;
+  width: 100%;
   margin-top: 33px;
 }
 
@@ -274,7 +278,7 @@ a {
 .hebergements-cards .card-title {
   margin-top: 10px;
   margin-bottom: 5px;
-  width: 200px;
+  width: 130%;
 }
 
 .hebergements-cards .card-subtitle {
@@ -432,6 +436,16 @@ a {
   .hebergements {
     width: 100%;
   }
+
+  .hebergements-cards {
+    margin: auto;
+    width: 100%;
+  }
+
+  .hebergements-cards .card {
+    width: 35vw;
+  }
+
   .hebergements-cards .card-title {
     white-space: nowrap;
   }
