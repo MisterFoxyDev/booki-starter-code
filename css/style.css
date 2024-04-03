@@ -523,6 +523,10 @@ a {
     width: 100vw;
   }
 
+  .navbar-container a {
+    margin: auto;
+  }
+
   .navbar-link {
     margin: 10px;
     border-bottom: solid 2px var(--main-bg-color);
