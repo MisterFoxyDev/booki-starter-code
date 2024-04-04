@@ -34,6 +34,7 @@ a {
 }
 
 .card {
+  display: flex;
   background-color: white;
   border-radius: 20px;
   padding: 5px;
@@ -437,18 +438,18 @@ a {
     width: 100%;
   }
 
-  .hebergements-cards {
-    margin: auto;
+  .hebergements-cards a {
+    flex: 1 1 15%;
+  }
+
+  .hebergements-cards img {
+    max-height: 6.5rem;
+  }
+
+  .hebergements-cards .card-content {
     width: 100%;
   }
 
-  .hebergements-cards .card {
-    width: 35vw;
-  }
-
-  .hebergements-cards .card-title {
-    white-space: nowrap;
-  }
   /* tablettes -POPULAIRES- */
   .populaires {
     width: 100%;
