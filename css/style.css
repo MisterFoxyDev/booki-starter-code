@@ -243,7 +243,7 @@ a {
 }
 
 .hebergements-cards {
-  gap: 15px;
+  gap: 25px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -254,8 +254,7 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 15rem;
-  margin-top: 33px;
+  margin: 33px auto 0 auto;
 }
 
 .hebergements-cards img {
@@ -435,15 +434,14 @@ a {
   }
   /* tablettes -HEBERGEMENTS- */
   .hebergements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
   }
 
   .hebergements-cards a {
-    flex: 1 1 15%;
-  }
-
-  .hebergements-cards img {
-    max-height: 6.5rem;
+    flex: 1 1 20%;
   }
 
   .hebergements-cards .card-content {
@@ -479,19 +477,17 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .activites-cards .card {
     margin: 5px;
     height: 220px;
-    max-width: 140px;
+    max-width: 11rem;
   }
 
   .activites-cards a {
     display: flex;
-    justify-content: center;
-    align-items: center;
+ justify-content: baseline;
     flex: 1 1 5%;
   }
 
@@ -635,7 +631,7 @@ a {
   }
 
   .hebergements-and-populaires section {
-    width: 102%;
+    width: 100%;
     border-radius: 0;
     margin: 0;
   }
@@ -657,16 +653,19 @@ a {
   }
 
   .populaires-cards a {
-    flex: 1 1 80%;
+    flex: 1 1 100%;
   }
 
   .populaires-cards .card {
-    width: 30rem;
-    margin: 1rem auto;
+    width: 100%;
+    max-width: 35rem;
+    margin: 0.3rem auto;
   }
 
   .populaires-cards img {
+    margin: 2px;
     width: 20%;
+    height: 9.375rem;
   }
   /* smartphones -HEBERGEMENTS- */
   .hebergements {
@@ -686,20 +685,23 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 25px;
+    gap: 15px;
   }
 
   .hebergements-cards a {
-    flex: 1 1 80%;
+    flex: 1 1 100%;
   }
 
   .hebergements-cards .card {
-    min-width: 30rem;
-    width: 100%;
-    margin: 0;
+    width: 35rem;
+    margin: 0.3rem auto;
   }
+  
 
   .hebergements-cards img {
-    height: 180px;
+    margin: 2px;
+    width: 34rem;
+    height: 7.5rem;
   }
 
   .section-subtitle {
@@ -707,19 +709,25 @@ a {
   }
   /* smartphones -ACTIVITES- */
 
+  .activites {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
   .activites-cards {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 25px 0 0 0;
     gap: 15px;
   }
 
   .activites-cards .card {
-    min-width: 30rem;
-    width: 100%;
-    margin: 0;
+    max-width: none;
+    width: 35rem;
+    margin: 0.3rem auto;
   }
 
   .activites-cards a {
@@ -727,7 +735,8 @@ a {
   }
 
   .activites-cards img {
-    height: 180px;
+    width: 34.9rem;
+    height: 7.5rem;
   }
 
   .activites-cards .card-title {
