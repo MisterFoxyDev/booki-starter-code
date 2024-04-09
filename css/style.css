@@ -487,7 +487,6 @@ a {
 
   .activites-cards a {
     display: flex;
-    justify-content: baseline;
     flex: 1 1 5%;
   }
 
