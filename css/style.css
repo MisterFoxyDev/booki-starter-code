@@ -487,7 +487,7 @@ a {
 
   .activites-cards a {
     display: flex;
- justify-content: baseline;
+    justify-content: baseline;
     flex: 1 1 5%;
   }
 
@@ -560,11 +560,15 @@ a {
     max-width: 95vw;
   }
 
+  .flex-container {
+    display: flex;
+  }
+
   .recherche-champ {
     max-width: 93vw;
     min-width: 35rem;
     width: 100%;
-    margin-left: 15px;
+    margin: auto;
   }
 
   .recherche-form {
@@ -696,7 +700,6 @@ a {
     width: 35rem;
     margin: 0.3rem auto;
   }
-  
 
   .hebergements-cards img {
     margin: 2px;
