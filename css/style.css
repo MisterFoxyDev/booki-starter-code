@@ -110,7 +110,7 @@ a {
 .recherche-champ {
   display: inline-flex;
   border: solid 1px var(--main-bg-color);
-  border-radius: 12px;
+  border-radius: 15px;
   margin-top: 25px;
 }
 
@@ -575,14 +575,16 @@ a {
   }
 
   .recherche-button {
+    width: 50px;
     border-radius: 12px;
     font-size: 0;
     position: relative;
+    box-shadow: 0px 4px 4px 0px #00000040;
   }
 
   .recherche-button::after {
     content: "\f002"; /* Code Unicode pour l'icône de loupe */
-    font-family: "Font Awesome 5 Free"; /* Nom de la famille de polices pour Font Awesome 5 */
+  font-family: "Font Awesome 5 Free", sans-serif;
     font-weight: 900;
     font-size: 16px;
     position: absolute;
@@ -597,17 +599,24 @@ a {
 
   .recherche-filtres-buttons {
     display: flex;
+    gap: 10px 15px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .recherche-filtres-button {
-    padding-left: 15px;
+    padding: 30px;
+    font-size: 1.3rem;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     height: 40px;
-    width: 43%;
+    width: 38%;
     margin: 8px 0;
+  }
+
+  .filtres-icon {
+ font-size: 25px;
   }
 
   .recherche-info-container {
