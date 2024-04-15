@@ -374,11 +374,8 @@ a {
 }
 
 .activites-cards .card-title {
-  padding: 10px;
-  margin-top: 20px;
-  margin-bottom: 5px;
-  margin-left: 15px;
-  width: 300px;
+  font-size: 1.1rem;
+  padding-left: 0.8rem;
 }
 /****** Footer ***********/
 .footer-background {
@@ -477,6 +474,7 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-start
   }
 
   .activites-cards .card {
@@ -492,10 +490,12 @@ a {
 
   .activites-cards img {
     height: 160px;
+    margin-bottom: 0.6rem;
   }
 
   .activites-cards .card-title {
-    margin: auto;
+    flex: 1 1 auto;
+    margin: auto 0;
   }
 
   /* tablettes -FOOTER- */
@@ -583,8 +583,8 @@ a {
   }
 
   .recherche-button::after {
-    content: "\f002"; /* Code Unicode pour l'icône de loupe */
-  font-family: "Font Awesome 5 Free", sans-serif;
+    content: "\f002"; /* !Code Unicode pour l'icône de loupe */
+    font-family: "Font Awesome 5 Free", sans-serif;
     font-weight: 900;
     font-size: 16px;
     position: absolute;
@@ -616,7 +616,7 @@ a {
   }
 
   .filtres-icon {
- font-size: 25px;
+    font-size: 25px;
   }
 
   .recherche-info-container {
@@ -746,11 +746,14 @@ a {
   }
 
   .activites-cards img {
-    width: 34.9rem;
-    height: 7.5rem;
+    width: 35rem;
+    height: 10rem;
   }
 
   .activites-cards .card-title {
+    display: flex;
+    font-size: 1.4rem;
+    margin-top: 0.3rem;
     white-space: nowrap;
   }
 
