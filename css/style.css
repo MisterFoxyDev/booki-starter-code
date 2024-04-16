@@ -430,6 +430,7 @@ a {
   .recherche-filtres-button {
     padding: 0.7rem 1.25rem;
     font-size: 1rem;
+    margin-top: 5px;
   }
 
   /* tablettes -HEBERGEMENTS ET POPULAIRES- */
@@ -614,6 +615,7 @@ a {
 
   .recherche-filtres-buttons {
     display: flex;
+    flex-direction: row;
     gap: 10px 15px;
     flex-wrap: wrap;
     margin: auto 1rem;
@@ -627,7 +629,7 @@ a {
     flex: 1 1 60vw;
     align-items: center;
     height: 40px;
-    width: 38%;
+    max-width: 48%;
     margin: 8px 0;
   }
 
