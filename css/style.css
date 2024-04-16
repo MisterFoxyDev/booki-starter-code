@@ -410,7 +410,7 @@ a {
 
 /****** Media queries ***********/
 /** RESPONSIVE tablettes **/
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .card-txt {
     display: flex;
     flex-wrap: wrap;
@@ -422,8 +422,7 @@ a {
   }
 
   .recherche-filtres-button {
-    font-size: 1rem;
-    padding: 10px;
+   margin: 0.5rem auto;
   }
   /* tablettes -HEBERGEMENTS ET POPULAIRES- */
   .hebergements-and-populaires {
