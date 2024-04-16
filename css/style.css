@@ -421,9 +421,17 @@ a {
     flex-wrap: wrap;
   }
 
-  .recherche-filtres-button {
-   margin: 0.5rem auto;
+  .recherche-filtres-title {
+    margin-top: -1.5rem;
+    margin-bottom: -1rem;
+    width: 100%;
   }
+
+  .recherche-filtres-button {
+    padding: 0.7rem 1.25rem;
+    font-size: 1rem;
+  }
+
   /* tablettes -HEBERGEMENTS ET POPULAIRES- */
   .hebergements-and-populaires {
     flex-direction: column;
@@ -600,15 +608,15 @@ a {
     transform: translate(-50%, -50%);
   }
 
-  .recherche-filtres-container {
-    margin: 2rem 0 0.7rem 1rem;
+  .recherche-filtres-title {
+    margin: auto 1rem;
   }
 
   .recherche-filtres-buttons {
     display: flex;
     gap: 10px 15px;
     flex-wrap: wrap;
-    justify-content: center;
+    margin: auto 1rem;
   }
 
   .recherche-filtres-button {
@@ -616,6 +624,7 @@ a {
     font-size: 1.3rem;
     display: flex;
     justify-content: flex-start;
+    flex: 1 1 60vw;
     align-items: center;
     height: 40px;
     width: 38%;
@@ -696,13 +705,15 @@ a {
   }
 
   .populaires-cards .card-content .card-txt .card-title {
+    width: 100%;
     min-width: 50vw;
     white-space: nowrap;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   .populaires-cards .card-content .card-txt .card-subtitle {
-    font-size: 1rem;
+    min-width: 60vw;
+    font-size: 1.3rem;
   }
   /* smartphones -HEBERGEMENTS- */
   .hebergements {
@@ -739,11 +750,12 @@ a {
   .hebergements-cards .card-content .card-txt .card-title {
     min-width: 50vw;
     white-space: nowrap;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   .hebergements-cards .card-content .card-txt .card-subtitle {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    min-width: 60vw;
   }
 
   /* smartphones -ACTIVITES- */
