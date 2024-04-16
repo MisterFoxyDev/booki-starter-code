@@ -563,7 +563,7 @@ a {
   }
   /* smartphones -RECHERCHE- */
   .recherche-title-container {
-    margin: 15px 15px 30px 15px;
+    margin: 1rem 1rem 2rem 1rem;
     max-width: 95vw;
   }
 
@@ -575,7 +575,7 @@ a {
     max-width: 93vw;
     min-width: 35rem;
     width: 100%;
-    margin: auto;
+    margin: auto 1rem;
   }
 
   .recherche-form {
@@ -602,7 +602,7 @@ a {
   }
 
   .recherche-filtres-container {
-    margin: 30px 0 10px 15px;
+    margin: 2rem 0 0.7rem 1rem;
   }
 
   .recherche-filtres-buttons {
